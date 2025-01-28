@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: darkblue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .container{
+        width: 50%;
+        height: 40%;
+        border-radius: 10px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    h2{    
+        text-align: center;
+    }
+    input{
+        width: 60%;
+        height: 40px;
+        border: none;
+        background-color: azure;
+        outline: none;
+        color: black;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 10px 10px 0px;
+        padding-left: 10px;
+    }
+    input:hover,input:focus{
+        border-bottom: 2px solid lightblue;
+    }
+    button{
+        width: 200px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 0px 0px 10px 10px;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Enter equation to solve</h2>
+        <input type="text" id="equate" placeholder="Enter a value to solve">
+        <p id="input-error" style="color: red;"></p>
+        <button onclick="Solve()">Solve</button>
+        <p id="output"></p>
+    </div>
+</body>
+<script src="Expectipn.js"></script>
+</html>

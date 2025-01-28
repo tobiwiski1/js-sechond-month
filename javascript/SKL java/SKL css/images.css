@@ -1,0 +1,12 @@
+.img{
+    height: 90px;
+    width: 130px;
+    /* float: right; */
+
+    /* centering an image in css */
+
+    display: block;
+    margin: 0px auto;
+}
+
+/* background image */

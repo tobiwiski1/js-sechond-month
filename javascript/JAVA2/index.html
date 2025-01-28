@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div> 
+
+
+
+    <script>
+        const num1 = 1;
+        const num2 = 4;
+        const sum1 = num1 + num2;
+        console.log (sum1);
+
+
+
+        const num3 = "5";
+        const num4 = "10";
+        const sum2 = num3 + num4;
+        const mins = num3 - num4;
+        const divs = num3 / num4;
+        const mul = num3 * num4;
+        console.log (sum2);
+        console.log (mins);
+        console.log (divs);
+        console.log (mul);
+
+
+        // const firstName = "john";
+        // const lastName = "doe"; 
+        const carName = "Honda";
+        const carYear = 2010;
+        // let fullName = firstName + " "+ lastName;
+        console.log(`The ${carName} is ${carYear} modal` )
+        // back tick
+        // const string = `the name of
+        // my dog is 
+        // bella`
+        // console.log (string)
+
+    //    interporlation
+        console.log (`hello my name is "hakeem"`);
+        console.log ("hello my name is \"tobi\" ")
+        // let p1 = 2
+        // let p2 = 0.52
+        //  console.log (`${(p1+ p2) .toFixed(2)}`)
+
+        const a = 2
+        const b = 4
+        console.log (`${a+b}`)
+
+
+
+
+
+
+
+
+       let  name = "hakeem";
+       let  char = [... name];
+        console.log (char)
+        console.log (char.join(""));
+         const myArr = [1,2,3]
+         const spreadArr = [...myArr]
+         console.log (spreadArr)
+         
+
+         arr1 = [1,2,3]
+         arr2 = [4,5,2,6]
+         arr3 = [...arr1,...arr2];
+         console.log (arr3)
+
+         const obj1 = {a:1,b:2,c:3}
+         const obj2 = {d:4,b:5,c:6}
+         const obj3 = {...obj1,...obj2}
+        console.log (obj3)
+
+        arr4 = [[1,2],[3,4]]
+        arr5 = [3,5]
+        arr6 = [...arr4,...arr5];
+        console.log (arr6)
+        
+
+
+        arr7 = [4,5]
+        arr8 = [8,4]
+        arr9 = [...arr7,...arr8]
+        const [firstValue, ...rest] = arr9
+        console.log ("firstVaule",firstValue)
+        console.log ("rest",rest)
+           
+
+        const obj = {name7 :"ife", age: 17, state: "lagos", lang: "english"}
+        const { name7, ...others } = obj
+        console.log (name7)
+        console.log (others)
+        console.log (obj)
+       
+
+        
+        
+
+
+
+
+
+    </script>
+ 
+
+
+</body>
+</html>
