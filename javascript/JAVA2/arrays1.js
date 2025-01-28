@@ -4,6 +4,8 @@ console.log(num)
 
 num.push(3)
 console.log(num)
+num.push (2)
+console.log(num)
 
 num.unshift(13)
 console.log(num)
