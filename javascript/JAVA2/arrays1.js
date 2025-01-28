@@ -7,8 +7,9 @@ console.log(num)
 num.push (2)
 console.log(num)
 
-num.unshift(13)
-console.log(num)
+// num.unshift(13)
+// console.log(num)
+
 
 num.pop()
 console.log(num)
