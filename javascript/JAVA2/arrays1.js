@@ -29,8 +29,3 @@ console.log(num)
 
 
 // Slice method: slice out a piece of array before the index called  into a new array
-
-
-
-
-
